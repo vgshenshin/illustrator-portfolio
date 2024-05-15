@@ -932,6 +932,12 @@ ol, ul {
     object-fit: contain;
 }
 
+@media (max-width: 576px) {
+    .pswp__img {
+        top: -130px;
+    }
+}
+
 /*
 	stretched thumbnail or div placeholder element (see below)
 	style is added to avoid flickering in webkit/blink when layers overlap
